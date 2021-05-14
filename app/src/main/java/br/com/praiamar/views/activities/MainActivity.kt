@@ -1,7 +1,8 @@
-package br.com.praiamar
+package br.com.praiamar.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import br.com.praiamar.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
