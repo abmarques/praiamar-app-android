@@ -1,4 +1,4 @@
-package br.com.praiamar.views
+package br.com.praiamar.views.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
