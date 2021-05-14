@@ -1,4 +1,4 @@
-package com.example.praiamar
+package br.com.praiamar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
