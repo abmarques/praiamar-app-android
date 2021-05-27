@@ -3,37 +3,77 @@ package br.com.praiamar.views.activities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Gravity
+import android.view.MenuItem
+import android.widget.Toast
+import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.widget.Toolbar
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.GridLayoutManager
 import br.com.praiamar.R
 import br.com.praiamar.adapters.HomeAdapter
+import com.google.android.material.navigation.NavigationView
 import br.com.praiamar.adapters.OnRecyclerViewClickListener
 import br.com.praiamar.models.Coast
 import br.com.praiamar.models.Beach
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
+class MainActivity : AppCompatActivity(),
+    NavigationView.OnNavigationItemSelectedListener, OnRecyclerViewClickListener {
+
     private var litoralList = arrayListOf<Coast>()
     private var adapter = HomeAdapter(litoralList, this)
+
+    lateinit var toolbar: Toolbar
+    lateinit var drawerLayout: DrawerLayout
+    lateinit var navView: NavigationView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        drawerLayout = findViewById(R.id.drawer_layout)
+        navView = findViewById(R.id.nav_view)
+
+        val toggle = ActionBarDrawerToggle(
+            this, drawerLayout, toolbar, 0, 0)
+
+        drawerLayout.addDrawerListener(toggle)
+        toggle.syncState()
+        navView.setNavigationItemSelectedListener(this)
+
         loadHomeDataList()
-
-        initRecyclerView()
-
+//        initRecyclerView()
     }
 
+//    private fun initRecyclerView() {
+//        homeRecyclerView.adapter = adapter
+//        adapter.notifyDataSetChanged()
+//
+//        val layoutManager = GridLayoutManager(this, 1)
+//        homeRecyclerView.layoutManager = layoutManager
+//    }
 
-    private fun initRecyclerView() {
-        homeRecyclerView.adapter = adapter
-        adapter.notifyDataSetChanged()
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.nav_profile -> {
+                Toast.makeText(this, "Profile clicked", Toast.LENGTH_SHORT).show()
+            }
+            R.id.nav_messages -> {
+                Toast.makeText(this, "Messages clicked", Toast.LENGTH_SHORT).show()
+            }
 
-        val layoutManager = GridLayoutManager(this, 1)
-        homeRecyclerView.layoutManager = layoutManager
+            R.id.nav_signout -> {
+                Toast.makeText(this, "Sign out clicked", Toast.LENGTH_SHORT).show()
+            }
+        }
+        drawerLayout.closeDrawer(GravityCompat.START)
+        return true
     }
-
 
     override fun onRecyclerViewItemClicked(position: Int) {
         val intent = Intent(this, CoastActivity::class.java)
@@ -41,16 +81,6 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
         intent.putParcelableArrayListExtra("praias", aux)
         startActivity(intent)
     }
-
-
-
-
-
-
-
-
-
-
 
     private fun loadHomeDataList() {
 
@@ -102,8 +132,4 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
         litoralList.add(4, ParqueAquatico)
 
     }
-
-
-
-
 }
