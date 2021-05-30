@@ -1,17 +1,20 @@
 package br.com.praiamar.views.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import br.com.praiamar.R
 import br.com.praiamar.adapters.BeachAdapter
+import br.com.praiamar.adapters.OnBeachItemClickListener
 import br.com.praiamar.models.Beach
 import kotlinx.android.synthetic.main.activity_coast.*
 
-class CoastActivity : AppCompatActivity() {
+class CoastActivity : AppCompatActivity(), OnBeachItemClickListener {
 
     private var beachList = arrayListOf<Beach>()
-    private var adapter = BeachAdapter(beachList)
+    private var adapter = BeachAdapter(beachList, this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,5 +33,14 @@ class CoastActivity : AppCompatActivity() {
 
         val layoutManager = GridLayoutManager(this, 1)
         beachRecyclerView.layoutManager = layoutManager
+    }
+
+    override fun onItemClick(item: Beach, position: Int) {
+        var intent = Intent(this, BeachDetailsActivity::class.java)
+        intent.putExtra("beachName", item.Nome)
+        intent.putExtra("beachDescription", item.Descricao)
+        intent.putExtra("beachImage", item.Imagem)
+
+        startActivity(intent)
     }
 }
