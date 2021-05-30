@@ -20,11 +20,9 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
         setContentView(R.layout.activity_main)
 
         loadHomeDataList()
-
         initRecyclerView()
 
     }
-
 
     private fun initRecyclerView() {
         homeRecyclerView.adapter = adapter
