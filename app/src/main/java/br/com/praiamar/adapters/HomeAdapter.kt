@@ -5,17 +5,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import br.com.praiamar.R
-import br.com.praiamar.models.Litoral
-import br.com.praiamar.views.activities.HomeActivity
-import br.com.praiamar.views.activities.MainActivity
+import br.com.praiamar.models.Coast
 import kotlinx.android.synthetic.main.activity_home.view.*
-import java.util.*
 
-class HomeAdapter(private val litoralList: List<Litoral>,
-                  private val activity: MainActivity) :
+class HomeAdapter(private val coastList: List<Coast>,
+                  private val onRecyclerViewClickListener: OnRecyclerViewClickListener) :
     RecyclerView.Adapter<HomeAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -32,21 +28,16 @@ class HomeAdapter(private val litoralList: List<Litoral>,
     }
 
     override fun onBindViewHolder(holder: HomeAdapter.ViewHolder, position: Int) {
-        val (nomeLitoral, descricaoLitoral, litoralImagem) = litoralList[position]
+        val (nomeLitoral, descricaoLitoral, litoralImagem) = coastList[position]
         holder.txtNomeLitoral.text = nomeLitoral
         holder.txtDescricaoLitoral.text = descricaoLitoral
         holder.litoralImagem.setImageResource(litoralImagem)
 
         holder.itemView.setOnClickListener {
-
-            val litoralNome = litoralList.get(position).Nome
-            val litoralDescricao = litoralList.get(position).Descricao
-            val litoralImagem = "${litoralNome}\n${litoralDescricao}"
-
-            Toast.makeText(activity, litoralNome, Toast.LENGTH_SHORT).show()
+            onRecyclerViewClickListener.onRecyclerViewItemClicked(position)
 
         }
     }
 
-    override fun getItemCount(): Int = litoralList.size
+    override fun getItemCount(): Int = coastList.size
 }
