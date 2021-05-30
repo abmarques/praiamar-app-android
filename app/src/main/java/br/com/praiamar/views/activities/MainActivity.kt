@@ -47,16 +47,16 @@ class MainActivity : AppCompatActivity(),
         navView.setNavigationItemSelectedListener(this)
 
         loadHomeDataList()
-//        initRecyclerView()
+        initRecyclerView()
     }
 
-//    private fun initRecyclerView() {
-//        homeRecyclerView.adapter = adapter
-//        adapter.notifyDataSetChanged()
-//
-//        val layoutManager = GridLayoutManager(this, 1)
-//        homeRecyclerView.layoutManager = layoutManager
-//    }
+    private fun initRecyclerView() {
+        homeRecyclerView.adapter = adapter
+        adapter.notifyDataSetChanged()
+
+        val layoutManager = GridLayoutManager(this, 1)
+        homeRecyclerView.layoutManager = layoutManager
+    }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId) {
