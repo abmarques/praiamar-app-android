@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Praiamar</string>
+
+
+
+
+    <!--Litoral Norte-->
+
+    <string name="north_coast_name">Litoral Norte</string>
+    <string name="north_coast_preview">Lirotal norte cheio de encantos…</string>
+
+    <string name="calhetas_beach_name">Praia de Calhetas</string>
+    <string name="calhetas_beach_preview">Essa é uma das praias mais bonitas do Brasil. A Praia…</string>
+    <string name="calhetas_beach_description">Essa é uma das praias mais bonitas do Brasil. A Praia de Calhetas, localizada no município de Santo Agostinho, está sempre cheia de turistas. Na região, prepare-se para encontrar águas cristalinas e calmas, vegetação e opções de práticas esportivas. Além de um mar calmo, que favorece mergulho, na região você pode ainda fazer trilhas, tirolesa, ou apenas curtir a paisagem.</string>
+
+
+    <!--Litoral Sul-->
+
+    <string name="south_coast_name">"Litoral Sul</string>
+    <string name="south_coast_preview">Na hora de escolher as praias de Pernambuco, litoral sul…</string>
+
+
+    <!--Piscinas Naturais-->
+
+    <string name="natural_pools_name">"Piscinas Naturais</string>
+    <string name="natural_pools_preview">Essa é uma unanimidade brasileira, quando se pensa em piscina natural…</string>
+
+
+    <!--Ilhas -->
+
+    <string name="islands_name">"Ilhas</string>
+    <string name="islands_preview">Lirotal norte cheio de encantos…</string>
+
+
+    <!--Parques Aquáticos -->
+
+    <string name="water_parks_name">"Parques Aquáticos</string>
+    <string name="water_parks_preview">Localizado no litoral norte de Pernambuco é sinônimo de…</string>
+
+
+    <!--Sobre Praiamar-->
+
+    <string name="about_praiamar_name">"Sobre Praiamar</string>
+    <string name="about_praiamar_preview">Não fique apenas aqui. Conheça também…</string>
+</resources>
