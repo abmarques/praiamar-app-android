@@ -59,9 +59,9 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
 
         praiasLitoralNorte.add(0,
             Beach(
-                "Praia de Calhetas",
-                "Essa é uma das praias mais bonitas do Brasil. A Praia...",
-                "Essa é uma das praias mais bonitas do Brasil. A Praia de Calhetas, localizada no município de Santo Agostinho, está sempre cheia de turistas. Na região, prepare-se para encontrar águas cristalinas e calmas, vegetação e opções de práticas esportivas. Além de um mar calmo, que favorece mergulho, na região você pode ainda fazer trilhas, tirolesa, ou apenas curtir a paisagem.",
+                getString(R.string.calhetas_beach_name),
+                getString(R.string.calhetas_beach_preview),
+                getString(R.string.calhetas_beach_description),
                 R.drawable.calhetas_beach_small,
                 R.drawable.calhetas_beach_large
             ))
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
                 R.drawable.janga_beach_large
             ))
 
-        var litoralNorte = Coast("Litoral Norte", "Lirotal norte cheio de encantos...", R.drawable.calhetas_beach_small, praiasLitoralNorte)
+        var litoralNorte = Coast(getString(R.string.north_coast_name), getString(R.string.north_coast_preview), R.drawable.calhetas_beach_small, praiasLitoralNorte)
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
@@ -134,7 +134,7 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
                 R.drawable.carneiros_beach_large
             ))
 
-        var litoralSul = Coast("Litoral Sul", "Na hora de escolher as praias de Pernambuco, litoral sul...", R.drawable.porto_de_galinhas_beach_small, praiasLitoralSul)
+        var litoralSul = Coast(getString(R.string.south_coast_name), getString(R.string.south_coast_preview), R.drawable.porto_de_galinhas_beach_small, praiasLitoralSul)
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
@@ -174,7 +174,7 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
                 R.drawable.fernando_de_noronha_beach_natural_pool_large
             ))
 
-        var piscinaNatural = Coast("Piscinas Naturais", "Essa é uma unanimidade brasileira, quando se pensa em piscina natural...", R.drawable.fernando_de_noronha_beach_natural_pool_small, piscinasNaturais)
+        var piscinaNatural = Coast(getString(R.string.natural_pools_name), getString(R.string.natural_pools_preview), R.drawable.fernando_de_noronha_beach_natural_pool_small, piscinasNaturais)
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
@@ -214,7 +214,7 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
                 R.drawable.santo_aleixo_island_large
             ))
 
-        var ilha = Coast("Ilhas", "Lirotal norte cheio de encantos...", R.drawable.fernando_de_noronha_island_small, ilhas)
+        var ilha = Coast(getString(R.string.islands_name), getString(R.string.islands_preview), R.drawable.fernando_de_noronha_island_small, ilhas)
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
@@ -224,7 +224,7 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
 
         parquesAquaticos.add(0,
             Beach("Veneza Water Park",
-                "Localizado no litoral norte de Pernambuco é sinônimo de.",
+                "Localizado no litoral norte de Pernambuco é sinônimo de...",
                 "Localizado no litoral norte de Pernambuco é sinônimo de diversão e alegria numa área de 90.000m², onde estão distribuídas mais de trinta atrações como Toboáguas, Piscina com Ondas artificiais, Rio lento, playgrounds infantis, tirolesa e muito mais.",
                 R.drawable.veneza_water_park_small,
                 R.drawable.veneza_water_park_large
@@ -254,7 +254,7 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
                 R.drawable.aldeia_water_park_large
             ))
 
-        var ParqueAquatico = Coast("Parques Aquaticos", "Lirotal norte cheio de encantos...", R.drawable.veneza_water_park_small, parquesAquaticos)
+        var ParqueAquatico = Coast(getString(R.string.water_parks_name), getString(R.string.water_parks_preview), R.drawable.veneza_water_park_small, parquesAquaticos)
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
@@ -267,7 +267,7 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
                 R.drawable.praiamar_logo_large
             ))
 
-        var about = Coast("Sobre Praiamar", "Não fique apenas aqui. Conheça também...", R.drawable.praiamar_logo_small, aboutInfo)
+        var about = Coast(getString(R.string.about_praiamar_name), getString(R.string.about_praiamar_preview), R.drawable.praiamar_logo_small, aboutInfo)
 
         /*Home*/
         litoralList.add(0, litoralNorte)

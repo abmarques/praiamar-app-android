@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">Praiamar</string>
+
+
+
+
+    <!--Litoral Norte-->
+
+    <string name="north_coast_name">North Coast</string>
+    <string name="north_coast_preview">North coast full of charms…</string>
+
+
+    <string name="calhetas_beach_name">Calhetas Beach</string>
+    <string name="calhetas_beach_preview">This is one of the most beautiful beaches in Brazil. The beach…</string>
+    <string name="calhetas_beach_description">This is one of the most beautiful beaches in Brazil. Praia de Calhetas, located in the municipality of Santo Agostinho, is always full of tourists. In the region, get ready to find crystal clear and calm waters, vegetation and sports options. In addition to a calm sea, which favors diving, in the region you can still make trails, zip lines, or just enjoy the scenery.</string>
+
+
+    <!--Litoral Sul-->
+
+    <string name="south_coast_name">"South Coast</string>
+    <string name="south_coast_preview">When choosing the beaches of Pernambuco, south coast…</string>
+
+
+    <!--Piscinas Naturais-->
+
+    <string name="natural_pools_name">"Natural Pools</string>
+    <string name="natural_pools_preview">This is a Brazilian unanimity, when thinking about a natural pool…</string>
+
+
+    <!--Ilhas -->
+
+    <string name="islands_name">"Islands</string>
+    <string name="islands_preview">North coast full of charms…</string>
+
+
+    <!--Parques Aquáticos -->
+
+    <string name="water_parks_name">"Water Parks</string>
+    <string name="water_parks_preview">Located on the north coast of Pernambuco it is synonymous with…</string>
+
+
+    <!--Sobre Praiamar-->
+
+    <string name="about_praiamar_name">"About Praiamar</string>
+    <string name="about_praiamar_preview">Don\'t just stay here. See also…</string>
 </resources>
