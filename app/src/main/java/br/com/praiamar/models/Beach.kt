@@ -4,6 +4,6 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Beach(var Nome: String, var Descricao: String, var Imagem: Int) : Parcelable {
-
+data class Beach(var Nome: String, var Preview: String,
+    var Descricao: String, var SmallImagem: Int, var LargeImagem: Int) : Parcelable {
 }

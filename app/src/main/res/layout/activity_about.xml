@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.activities.BeachDetailsActivity">
+
+    <ImageView
+        android:id="@+id/aboutImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/fernando_de_noronha_beach_natural_pool_large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aboutNameTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Nome da Praia"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutImageView" />
+
+    <TextView
+        android:id="@+id/aboutDescriptionTxtView"
+        android:layout_width="397dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:text="Description example Description example Description example Description example Description example Description example Description example Description example ."
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutNameTxtView" />
+
+
+    <ImageButton
+        android:id="@+id/facebookImageButton"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toStartOf="@+id/twitterImageButton"
+        app:layout_constraintStart_toEndOf="@+id/instagramImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:srcCompat="@drawable/facebook" />
+
+    <ImageButton
+        android:id="@+id/instagramImageButton"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/facebookImageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/facebookImageButton"
+        app:layout_constraintVertical_bias="1.0"
+        tools:srcCompat="@drawable/instagram" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Siga-nos em nossas redes sociais:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutDescriptionTxtView" />
+
+    <ImageButton
+        android:id="@+id/twitterImageButton"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/facebookImageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/facebookImageButton"
+        app:layout_constraintVertical_bias="1.0"
+        tools:srcCompat="@drawable/twitter" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

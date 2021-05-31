@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:text="Nome do Litoral"
-                    android:textColor="#000"
+                    android:textColor="@color/primaryColor"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 

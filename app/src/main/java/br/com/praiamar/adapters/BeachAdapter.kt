@@ -20,9 +20,9 @@ class BeachAdapter(private val beachList: ArrayList<Beach>,
         val txtDescricaoPraia : TextView = itemView.txtDescricaoPraia
 
         fun initialize(item: Beach, action:OnBeachItemClickListener) {
-            praiaImagem.setImageResource(item.Imagem)
+            praiaImagem.setImageResource(item.SmallImagem)
             txtNomePraia.text = item.Nome
-            txtDescricaoPraia.text = item.Descricao
+            txtDescricaoPraia.text = item.Preview
 
             itemView.setOnClickListener{
                 action.onItemClick(item, adapterPosition)
