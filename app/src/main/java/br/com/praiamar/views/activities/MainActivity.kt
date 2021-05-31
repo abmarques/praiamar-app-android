@@ -262,7 +262,7 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
         aboutInfo.add(0,
             Beach("Sobre Praiamar",
                 "Não fique apenas aqui. Conheça também...",
-                "Não fique Apenas aqui. Siga-nos em nossa página no Instagram e conheça todo o litoral brasileiro e suas belezas naturais e aproveite o que é seu por natureza.",
+                "Não fique Apenas aqui. Siga-nos em nossas redes sociais e conheça todo o litoral brasileiro e suas belezas naturais e aproveite o que é seu por natureza.",
                 R.drawable.praiamar_logo_small,
                 R.drawable.praiamar_logo_large
             ))
