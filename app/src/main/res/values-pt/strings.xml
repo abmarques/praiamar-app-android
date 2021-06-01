@@ -2,9 +2,6 @@
 <resources>
     <string name="app_name">Praiamar</string>
 
-
-
-
     <!--Litoral Norte-->
 
     <string name="north_coast_name">Litoral Norte</string>
