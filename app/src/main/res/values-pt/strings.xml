@@ -2,6 +2,11 @@
 <resources>
     <string name="app_name">Praiamar</string>
 
+    <string name="restaurants">Restaurantes</string>
+    <string name="hotels">Hotéis</string>
+    <string name="localization">Como Chegar</string>
+
+
 
 
 
@@ -15,15 +20,15 @@
     <string name="calhetas_beach_description">Essa é uma das praias mais bonitas do Brasil. A Praia de Calhetas, localizada no município de Santo Agostinho, está sempre cheia de turistas. Na região, prepare-se para encontrar águas cristalinas e calmas, vegetação e opções de práticas esportivas. Além de um mar calmo, que favorece mergulho, na região você pode ainda fazer trilhas, tirolesa, ou apenas curtir a paisagem.</string>
 
     <string name="boa_viagem_beach_name">Praia de Boa Viagem</string>
-    <string name="boa_viagem_beach_preview">Entre as praias turísticas de Pernambuco, essa é uma...</string>
+    <string name="boa_viagem_beach_preview">Entre as praias turísticas de Pernambuco, essa é uma…</string>
     <string name="boa_viagem_beach_description">Entre as praias turísticas de Pernambuco, essa é uma das mais populares de Recife. Com muitos coqueiros ao seu redor, a Praia dde Boa Viagem possui uma longa faixa de areia e um mar de cor esverdeada. A boa notícia é que há muitos quiosques e barracas na orla, que vendem porções e drinks bem gostosos. Não deixe de tomar um banho de mar, pois as águas são tranquilas e com temperaturas agradáveis.</string>
 
     <string name="forte_orange_beach_name">Praia de Forte Orange</string>
-    <string name="forte_orange_beach_preview">Situada na Ilha de Itamaracá, a Praia do Forte Orange...</string>
+    <string name="forte_orange_beach_preview">Situada na Ilha de Itamaracá, a Praia do Forte Orange…</string>
     <string name="forte_orange_beach_description">Situada na Ilha de Itamaracá, a Praia do Forte Orange é perfeita para quem quer aproveitar um clima animado e descontraído. Além de ser dona de paisagens tropicais belíssimas, ela oferece esportes aquáticos, como mergulho e stand-up paddle. As águas tranquilas e agradáveis tornam o banho de mar ainda mais delicioso.</string>
 
     <string name="janga_beach_name">Praia do Janga</string>
-    <string name="janga_beach_preview">A Praia do Janga está localizada na área mais urbana...</string>
+    <string name="janga_beach_preview">A Praia do Janga está localizada na área mais urbana…</string>
     <string name="janga_beach_description">A Praia do Janga está localizada na área mais urbana de Recife. No local, você encontrará uma extensa faixa de areia, perfeita para caminhadas. O mar é calmo e as águas são transparentes, o que favorece um delicioso banho de mar. É possível praticar esportes aquáticos, como caiaque e jet ski. A região não é muito movimentada, garantindo momentos de maior tranquilidade.</string>
 
     <!--Litoral Sul-->
@@ -32,19 +37,19 @@
     <string name="south_coast_preview">Na hora de escolher as praias de Pernambuco, litoral sul…</string>
 
     <string name="porto_de_galinhas_beach_name">Praia de Porto de Galinhas</string>
-    <string name="porto_de_galinhas_beach_preview">Na hora de escolher as praias de Pernambuco, litoral sul...</string>
+    <string name="porto_de_galinhas_beach_preview">Na hora de escolher as praias de Pernambuco, litoral sul…</string>
     <string name="porto_de_galinhas_beach_description">Na hora de escolher as praias de Pernambuco, litoral sul, com certeza, Porto de Galinhas não pode faltar no seu roteiro. Nessa região, as praias são belíssimas e contornadas por coqueiros, mar azul e águas transparentes. A praia que leva o nome do distrito é dona dos cenários mais incríveis da região sul. Não deixe de mergulhar para observar peixes de espécies variadas e recifes de corais!</string>
 
     <string name="maracaipe_beach_name">Praia de Maracaípe</string>
-    <string name="maracaipe_beach_preview">Você ficará encantado com a Praia de Maracaípe. Bem longe...</string>
+    <string name="maracaipe_beach_preview">Você ficará encantado com a Praia de Maracaípe. Bem longe…</string>
     <string name="maracaipe_beach_description">Você ficará encantado com a Praia de Maracaípe. Bem longe da área urbana, a região garante as paisagens mais bonitas de Pernambuco. A praia possui uma ampla faixa de areia branquinha e fofa, perfeita para quem gosta de fazer uma caminhada e admirar o cenário. Nessa região, o mar é agitado e atrai muitos surfistas.</string>
 
     <string name="muro_alto_beach_name">Praia de Muro Alto</string>
-    <string name="muro_alto_beach_preview">Também no distrito de Porto de Galinhas, a Praia de Muro...</string>
+    <string name="muro_alto_beach_preview">Também no distrito de Porto de Galinhas, a Praia de Muro…</string>
     <string name="muro_alto_beach_description">Também no distrito de Porto de Galinhas, a Praia de Muro Alto possui falésias de 3 metros, que formam lindos paredões em toda a sua orla. Os arrecifes também são destaques na paisagem, e formam piscinas naturais de águas calmas e quentinhas. Em um trecho da praia, é possível andar de jet ski. Para curtir toda a região, alugue um buggy e faça também um passeio pelas areias brancas e fofas.</string>
 
     <string name="carneiros_beach_name">Praia dos Carneiros</string>
-    <string name="carneiros_beach_preview">Localizada na cidade de Tamandaré, Carneiros é uma das praias...</string>
+    <string name="carneiros_beach_preview">Localizada na cidade de Tamandaré, Carneiros é uma das praias…</string>
     <string name="carneiros_beach_description">Localizada na cidade de Tamandaré, Carneiros é uma das praias mais bonitas do estado. Cercada por coqueiros e com um mar de águas cristalinas, ela ainda é muito charmosa e histórica. Não deixe de curtir a praia, mas aproveite para conhecer a igreja de São Benedito, datada do século XVIII — que é palco de casamentos, inclusive, de famosos. Ela é uma das praias de Pernambuco para lua de mel mais procuradas.</string>
 
     <!--Piscinas Naturais-->
@@ -53,17 +58,20 @@
     <string name="natural_pools_preview">Essa é uma unanimidade brasileira, quando se pensa em piscina natural…</string>
 
     <string name="porto_de_galinhas_natural_pools_name">Piscinas Naturais de Porto de Galinhas</string>
-    <string name="porto_de_galinhas_natural_pools_preview">Essa é uma unanimidade brasileira, quando se pensa em piscina...</string>
+    <string name="porto_de_galinhas_natural_pools_preview">Essa é uma unanimidade brasileira, quando se pensa em piscina…</string>
     <string name="porto_de_galinhas_natural_pools_description">Essa é uma unanimidade brasileira, quando se pensa em piscina natural já vem logo na nossa mente a praia de porto de galinhas. A praia de Porto de Galinhas fica no Município de Ipojuca e a aproximadamente 49,2 Km do Aeroporto Internacional do Recife. Em cerca de 1 hora saindo da capital você chega nessas, que são uma das 7 maravilhas de Pernambuco, as piscinas naturais de Porto de Galinhas.</string>
 
     <string name="muro_alto_natural_pools_name">Piscinas Naturais de Muro Alto</string>
-    <string name="muro_alto_natural_pools_preview">Do ladinho de Porto de Galinhas, tem a praia de Muro Alto com sua...</string>
+    <string name="muro_alto_natural_pools_preview">Do ladinho de Porto de Galinhas, tem a praia de Muro Alto com sua…</string>
     <string name="muro_alto_natural_pools_description">Do ladinho de Porto de Galinhas, tem a praia de Muro Alto com sua piscina “gigante”. A praia tem um paredão de corais que chegam a 3km de extensão e por isso forma uma grande piscina. Na maré baixa o visual fica incrível, você pode ir nadando para o paredão de corais ou usando caiaque/ stand up paddle. Também pode fazer um passeio de jangada ou apenas ficar curtindo o mar calmo e cristalino dessa praia."</string>
 
     <string name="carneiros_beach_natural_pools_name">Piscinas Naturais da Praia dos Carneiros</string>
-    <string name="carneiros_beach_natural_pools_preview">A Praia dos Carneiros fica no Município de Tamandaré, a 113 Km...</string>
+    <string name="carneiros_beach_natural_pools_preview">A Praia dos Carneiros fica no Município de Tamandaré, a 113 Km…</string>
     <string name="carneiros_beach_natural_pools_description">A Praia dos Carneiros fica no Município de Tamandaré, a 113 Km do Recife. Essa praia foi eleita a segunda melhor praia do Brasil, segundo o prêmio do site TripAdvisor, O Traveller´s Choice 2017. Lá você encontra bancos de areias, piscinas naturais, corais, banho de argila medicinal, manguezais e tudo com uma boa infra-estrutura para você curtir seu dia. Você pode explorar a praia caminhando, fazendo passeio de barco, de caiaque, stand up paddle e muito mais.</string>
 
+    <string name="noronha_beach_natural_pools_name">Piscinas Naturais da Baía dos Porcos</string>
+    <string name="noronha_beach_natural_pools_preview">As piscinas naturais que encontramos em Fernando de Noronha……</string>
+    <string name="noronha_beach_natural_pools_description">As piscinas naturais que encontramos em Fernando de Noronha, são as mais belas do mundo. A Baía dos Porcos é um dos principais pontos de mergulho na ilha e  na maré mais baixa as piscinas se destacam. Uma água de cor verde/azul, uma riqueza de vida marinha e uma vista mais que privilegiada para o Morro dos dois irmãos. Nas piscinas naturais da Baía dos Porcos podemos ver arraias, tubarões, tartarugas, peixes e corais multicoloridos. Um mergulho lá é inesquecível!</string>
 
 
     <!--Ilhas -->
@@ -71,15 +79,52 @@
     <string name="islands_name">"Ilhas</string>
     <string name="islands_preview">Lirotal norte cheio de encantos…</string>
 
+    <string name="noronha_island_name">Ilha de Fernando de Noronha</string>
+    <string name="noronha_island_preview">Um verdadeiro santuário em território pernambucano. Fernando…</string>
+    <string name="noronha_island_description">Um verdadeiro santuário em território pernambucano. Fernando de Noronha é um dos arquipélagos mais procurados por turistas que buscam contato com a natureza, paisagens paradisíacas e atividades aquáticas. Para desembarcar na ilha, você precisará pagar taxas de preservação, mas acredite, vale cada centavo o investimento. O arquipélago possui as mais belas praias de Pernambuco. As mais disputadas são as Praias do Sancho, do Cachorro, do Porto, da Conceição, Praia do Boldró, Baía dos Porcos, Baía dos Golfinhos e Praia do Meio.</string>
+
+    <string name="coroa_do_aviao_island_name">Ilha da Coroa do Avião</string>
+    <string name="coroa_do_aviao_island_preview">A linda Coroa do Avião fica em uma pequena ilha na região de…</string>
+    <string name="coroa_do_aviao_island_description">A linda Coroa do Avião fica em uma pequena ilha na região de Itamaracá. Para chegar ao local, você precisará se deslocar de barco até lá. Mas acredite, o local é esplêndido e você vai curtir momentos de relaxamento em meio à natureza. Nessa região, as águas são claras, o vento é agradável e a vegetação da pequena ilha completa o cenário paradisíaco.</string>
+
+    <string name="itamaraca_island_name">Ilha de Itamaracá</string>
+    <string name="itamaraca_island_preview">Ilha de Itamaracá é perfeita para quem quer aproveitar…</string>
+    <string name="itamaraca_island_description">Ilha de Itamaracá é perfeita para quem quer aproveitar um clima animado e descontraído. Além de ser dona de paisagens tropicais belíssimas, ela oferece esportes aquáticos, como mergulho e stand-up paddle. As águas tranquilas e agradáveis tornam o banho de mar ainda mais delicioso.</string>
+
+    <string name="santo_aleixo_island_name">Ilha de Santo Aleixo</string>
+    <string name="santo_aleixo_island_preview">A ilha de Santo Aleixo é uma ilha brasileira localizada…</string>
+    <string name="santo_aleixo_island_description">A ilha de Santo Aleixo é uma ilha brasileira localizada no litoral sul do estado de Pernambuco, região Nordeste do Brasil. Administrativamente faz parte do município de Sirinhaém, embora seja de propriedade particular. Também foi em Santo Aleixo que se passou a primeira invasão francesa no Brasil, a qual durou de março a dezembro de 1531, tendo estes sido expulsos por militares portugueses. Quando da ocupação francesa, a ilha foi denominada -île Saint-Alexis-. Essa invasões, que viriam a se tornar sucessivas, tinham como principal objetivo a coleta de -pau-de-tinta-, como então era conhecido o pau-brasil.</string>
+
 
     <!--Parques Aquáticos -->
 
     <string name="water_parks_name">"Parques Aquáticos</string>
     <string name="water_parks_preview">Localizado no litoral norte de Pernambuco é sinônimo de…</string>
 
+    <string name="veneza_water_park_name">Veneza Water Park</string>
+    <string name="veneza_water_park_preview">Localizado no litoral norte de Pernambuco é sinônimo de…</string>
+    <string name="veneza_water_park_description">Localizado no litoral norte de Pernambuco é sinônimo de diversão e alegria numa área de 90.000m², onde estão distribuídas mais de trinta atrações como Toboáguas, Piscina com Ondas artificiais, Rio lento, playgrounds infantis, tirolesa e muito mais.</string>
+
+    <string name="sundown_park_name">Sundown Park</string>
+    <string name="sundown_park_preview">O Sundown Park e hoje um dos melhores parque aquaticos do Brasil…</string>
+    <string name="sundown_park_description">O Sundown Park e hoje um dos melhores parque aquaticos do Brasil, contando uma infra-estrutura de 90.000m2 de pura diversao. São várias atracoes para toda família, entre elas, o Panico que e o 3o maior toboagua do Brasil, e também a Kionda, uma fantatica piscina de ondas com quase 3 milhoes de litros d\'água! Lazer e diversao, e so aqui no Sundown Park!</string>
+
+    <string name="aguas_finas_name">"Águas Finas</string>
+    <string name="aguas_finas_preview">Passe um dia de lazer em Águas Finas e desfrute de nossas piscinas…</string>
+    <string name="aguas_finas_description">Passe um dia de lazer em Águas Finas e desfrute de nossas piscinas e bicas de água mineral corrente, únicas no País. Se divirta em nossos escorregos e toboáguas, aventure-se em nossas florestas seculares, divirta-se no pesque e pague e se delicie em nosso restaurante temático.</string>
+
+    <string name="aldeia_water_park_name">"Aldeia Water Park</string>
+    <string name="aldeia_water_park_preview">Temos uma infinidade de opções para tornar os seus dias inesquecíveis…</string>
+    <string name="aldeia_water_park_description">Temos uma infinidade de opções para tornar os seus dias inesquecíveis. São 17 piscinas, toboáguas, Rio Corrente e Piscina de Ondas. Além disso, dispomos de spa, quadras poliesportivas, campos de futebol society, espaço para esportes radicais e um incrível lago de pesca.</string>
+
 
     <!--Sobre Praiamar-->
 
     <string name="about_praiamar_name">"Sobre Praiamar</string>
     <string name="about_praiamar_preview">Não fique apenas aqui. Conheça também…</string>
+    <string name="about_praiamar_description">Não fique Apenas aqui. Siga-nos em nossas redes sociais e conheça todo o litoral brasileiro, suas belezas naturais e aproveite o que é seu por natureza.</string>
+    <string name="hotels_in">Hotéis em</string>
+    <string name="restaurants_in">Restaurantes em</string>
+
+
 </resources>
