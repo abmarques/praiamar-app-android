@@ -10,11 +10,11 @@
     tools:context=".views.activities.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/homeRecyclerView"
+        android:id="@+id/beachRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/primaryColor"
         android:layout_margin="2dp"
+        android:textColor="@color/primaryColor"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="2dp" />
 

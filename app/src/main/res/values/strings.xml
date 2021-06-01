@@ -1,3 +1,128 @@
 <resources>
     <string name="app_name">Praiamar</string>
+
+    <string name="restaurants">Restaurants</string>
+    <string name="hotels">Hotels</string>
+    <string name="localization">Localization</string>
+    <string name="hotels_in">Hotels in</string>
+    <string name="restaurants_in">Restaurants in</string>
+
+
+    <!--Litoral Norte-->
+
+    <string name="north_coast_name">North Coast</string>
+    <string name="north_coast_preview">North coast full of charms…</string>
+
+
+    <string name="calhetas_beach_name">Calhetas Beach</string>
+    <string name="calhetas_beach_preview">This is one of the most beautiful beaches in Brazil. The beach…</string>
+    <string name="calhetas_beach_description">This is one of the most beautiful beaches in Brazil. Praia de Calhetas, located in the municipality of Santo Agostinho, is always full of tourists. In the region, get ready to find crystal clear and calm waters, vegetation and sports options. In addition to a calm sea, which favors diving, in the region you can still make trails, zip lines, or just enjoy the scenery.</string>
+
+    <string name="boa_viagem_beach_name">Boa Viagem Beach</string>
+    <string name="boa_viagem_beach_preview">Among the tourist beaches of Pernambuco, this is one…</string>
+    <string name="boa_viagem_beach_description">Among the tourist beaches of Pernambuco, this is one of the most popular in Recife. With many coconut trees around, Praia dde Boa Viagem has a long stretch of sand and a greenish sea. The good news is that there are many kiosks and tents on the edge, which sell tasty portions and drinks. Be sure to take a swim in the sea, as the waters are calm and with pleasant temperatures.</string>
+
+    <string name="forte_orange_beach_name">Forte Orange Beach</string>
+    <string name="forte_orange_beach_preview">Located on the island of Itamaracá, Praia do Forte Orange…</string>
+    <string name="forte_orange_beach_description">Located on the island of Itamaracá, Praia do Forte Orange is perfect for those who want to enjoy a lively and relaxed atmosphere. In addition to being the owner of beautiful tropical landscapes, it offers water sports, such as diving and stand-up paddle. The calm and pleasant waters make bathing in the sea even more delicious.</string>
+
+    <string name="janga_beach_name">Janga Beach</string>
+    <string name="janga_beach_preview">Janga Beach is located in the most urban area…</string>
+    <string name="janga_beach_description">Janga Beach is located in the most urban area of Recife. On site you will find an extensive stretch of sand, perfect for walking. The sea is calm and the waters are transparent, which makes for a delicious swim. It is possible to practice water sports such as kayaking and jet skiing. The region is not very busy, ensuring moments of greater tranquility.</string>
+
+
+    <!--Litoral Sul-->
+
+    <string name="south_coast_name">"South Coast</string>
+    <string name="south_coast_preview">When choosing the beaches of Pernambuco, south coast…</string>
+
+    <string name="porto_de_galinhas_beach_name">Porto de Galinhas Beach</string>
+    <string name="porto_de_galinhas_beach_preview">When choosing the beaches of Pernambuco, south coast…</string>
+    <string name="porto_de_galinhas_beach_description">When choosing the beaches of Pernambuco, south coast, of course, Porto de Galinhas cannot be missing from your itinerary. In this region, the beaches are beautiful and surrounded by coconut trees, blue sea and transparent waters. The beach that bears the districts name owns the most incredible scenery in the southern region. Dont miss diving to observe fish of different species and coral reefs!"</string>
+
+    <string name="maracaipe_beach_name">Maracaipe Beach</string>
+    <string name="maracaipe_beach_preview">You will be enchanted by Maracaipe Beach. Far away…</string>
+    <string name="maracaipe_beach_description">You will be enchanted by Maracaipe Beach. Far from the urban area, the region guarantees the most beautiful landscapes in Pernambuco. The beach has a wide stretch of soft white sand, perfect for those who like to take a walk and admire the scenery. In this region, the sea is rough and attracts many surfers.</string>
+
+    <string name="muro_alto_beach_name">Muro Alto Beach</string>
+    <string name="muro_alto_beach_preview">Also in the Porto de Galinhas district, Praia de Muro…</string>
+    <string name="muro_alto_beach_description">Also in the district of Porto de Galinhas, Praia de Muro Alto has 3-metre cliffs, which form beautiful walls along its entire edge. The reefs are also highlights in the landscape, and form natural pools with calm and warm waters. On a stretch of beach, it is possible to ride a jet ski. To enjoy the entire region, rent a buggy and also take a ride on the soft white sands.</string>
+
+    <string name="carneiros_beach_name">Carneiros Beach</string>
+    <string name="carneiros_beach_preview">Located in the city of Tamandaré, Carneiros is one of the beaches…</string>
+    <string name="carneiros_beach_description">Located in the city of Tamandaré, Carneiros is one of the most beautiful beaches in the state. Surrounded by coconut trees and with a sea of ​​crystal clear water, it is still very charming and historic. Be sure to enjoy the beach, but take the opportunity to visit the church of São Benedito, dating from the 18th century - which is the stage for weddings, including famous ones. It is one of the most popular honeymoon beaches in Pernambuco.</string>
+
+    <!--Piscinas Naturais-->
+
+    <string name="natural_pools_name">"Natural Pools</string>
+    <string name="natural_pools_preview">This is a Brazilian unanimity, when thinking about a natural pool…</string>
+
+    <string name="porto_de_galinhas_natural_pools_name">Porto de Galinhas Natural Pool</string>
+    <string name="porto_de_galinhas_natural_pools_preview">This is a Brazilian unanimity, when thinking about swimming pool…</string>
+    <string name="porto_de_galinhas_natural_pools_description">This is a Brazilian unanimity, when you think about a natural pool, the beach at Porto de Galinhas comes to mind. Porto de Galinhas beach is located in the Municipality of Ipojuca and approximately 49.2 Km from Recife International Airport. In about 1 hour leaving the capital, you arrive at these, which are one of the 7 wonders of Pernambuco, the natural pools of Porto de Galinhas.</string>
+
+    <string name="muro_alto_natural_pools_name">Muro Alto Natural Pool</string>
+    <string name="muro_alto_natural_pools_preview">From the side of Porto de Galinhas, there is the beach of Muro Alto with its…</string>
+    <string name="muro_alto_natural_pools_description">On the side of Porto de Galinhas, there is Muro Alto beach with its “giant” pool. The beach has a wall of corals that reach 3km in length and therefore forms a large pool. At low tide the view is amazing, you can go swimming to the coral wall or using a kayak/stand up paddle. You can also take a raft ride or just enjoy the calm and crystalline sea of ​​this beach.</string>
+
+    <string name="carneiros_beach_natural_pools_name">Carneiros Beach Natural Pool</string>
+    <string name="carneiros_beach_natural_pools_preview">Praia dos Carneiros is located in the municipality of Tamandaré, 113 Km away…</string>
+    <string name="carneiros_beach_natural_pools_description">Praia dos Carneiros is located in the municipality of Tamandaré, 113 km from Recife. This beach was elected the second best beach in Brazil, according to the TripAdvisor websites O Travellers Choice 2017 award. There you will find sandbanks, natural pools, corals, a medicinal clay bath, mangroves and everything with a good infrastructure. structure for you to enjoy your day. You can explore the beach by walking, boating, kayaking, stand up paddle and much more.</string>
+
+    <string name="noronha_beach_natural_pools_name">Bay of Pigs Natural Pools</string>
+    <string name="noronha_beach_natural_pools_preview">The natural pools we found in Fernando de Noronha…</string>
+    <string name="noronha_beach_natural_pools_description">The natural pools found in Fernando de Noronha are the most beautiful in the world. The Bay of Pigs is one of the main diving spots on the island and at low tide the pools stand out. Green / blue water, a wealth of marine life and a privileged view of the Morro dos Dois Irmãos. In the natural pools of Baía dos Porcos we can see stingrays, sharks, turtles, fish and multicolored corals. A dip there is unforgettable!</string>
+
+
+    <!--Ilhas -->
+
+    <string name="islands_name">"Islands</string>
+    <string name="islands_preview">North coast full of charms…</string>
+
+    <string name="noronha_island_name">Fernando de Noronha Island</string>
+    <string name="noronha_island_preview">A true sanctuary in Pernambuco territory. Fernando…</string>
+    <string name="noronha_island_description">A true sanctuary in Pernambuco territory. Fernando de Noronha is one of the most sought after archipelagos by tourists seeking contact with nature, paradisiacal landscapes and water activities. To land on the island, you\'ll need to pay conservation fees, but believe me, it\'s worth every penny. The archipelago has the most beautiful beaches in Pernambuco. The most popular are the beaches of Sancho, Cachorro, Porto, Conceição, Praia do Boldró, Baía dos Porcos, Baía dos Golfinhos and Praia do Meio.</string>
+
+    <string name="coroa_do_aviao_island_name">Airplane Crown Island</string>
+    <string name="coroa_do_aviao_island_preview">The beautiful Coroa do Avião is located on a small island in the region of…</string>
+    <string name="coroa_do_aviao_island_description">The beautiful Coroa do Avião is on a small island in the region of Itamaracá. To reach the location, you will need to travel there by boat. But believe me, the place is splendid and you will enjoy moments of relaxation amidst nature. In this region, the waters are clear, the wind is pleasant and the vegetation of the small island completes the idyllic setting.</string>
+
+    <string name="itamaraca_island_name">Itamaracá Island</string>
+    <string name="itamaraca_island_preview">Ilha de Itamaracá is perfect for those who want to enjoy…</string>
+    <string name="itamaraca_island_description">Itamaracá Island is perfect for those who want to enjoy a lively and relaxed atmosphere. In addition to being the owner of beautiful tropical landscapes, it offers water sports such as diving and stand-up paddle. The calm and pleasant waters make bathing in the sea even more delicious.</string>
+
+    <string name="santo_aleixo_island_name">Santo Aleixo Island</string>
+    <string name="santo_aleixo_island_preview">The island of Santo Aleixo is a Brazilian island located…</string>
+    <string name="santo_aleixo_island_description">The island of Santo Aleixo is a Brazilian island located on the southern coast of the state of Pernambuco, in the Northeast region of Brazil. Administratively it is part of the municipality of Sirinhaém, although it is privately owned. It was also in Santo Aleixo that the first French invasion of Brazil took place, which lasted from March to December 1531, having been expelled by the Portuguese military. During the French occupation, the island was named -île Saint-Alexis-. These invasions, which would become successive, had as their main objective the collection of -pau-de-tinta-, as pau-brasil was then known.</string>
+
+
+    <!--Parques Aquáticos -->
+
+    <string name="water_parks_name">"Water Parks</string>
+    <string name="water_parks_preview">Located on the north coast of Pernambuco it is synonymous with…</string>
+
+    <string name="veneza_water_park_name">Veneza Water Park</string>
+    <string name="veneza_water_park_preview">Located on the north coast of Pernambuco, it is synonymous with…</string>
+    <string name="veneza_water_park_description">Located on the northern coast of Pernambuco, it is synonymous with fun and joy in an area of 90,000m², where more than thirty attractions are distributed, such as water slides, swimming pool with artificial waves, lazy river, children\'s playgrounds, zip line and much more.</string>
+
+    <string name="sundown_park_name">Sundown Park</string>
+    <string name="sundown_park_preview">Sundown Park is today one of the best water parks in Brazil…</string>
+    <string name="sundown_park_description">Sundown Park is today one of the best water parks in Brazil, with an infrastructure of 90,000m2 of pure fun. There are several attractions for the whole family, including the Panico which is the 3rd largest water slide in Brazil, and also the Kionda, a fantastic wave pool with almost 3 million liters of water! Leisure and fun, and only here at Sundown Park!</string>
+
+    <string name="aguas_finas_name">"Águas Finas Water Parkr</string>
+    <string name="aguas_finas_preview">Spend a leisurely day in Águas Finas and enjoy our swimming pools…</string>
+    <string name="aguas_finas_description">Spend a day of leisure in Águas Finas and enjoy our pools and spouts of running mineral water, unique in the country. in our themed restaurant.</string>
+
+    <string name="aldeia_water_park_name">"Aldeia Water Park</string>
+    <string name="aldeia_water_park_preview">We have a multitude of options to make your days unforgettable…</string>
+    <string name="aldeia_water_park_description">We have a multitude of options to make your days unforgettable. There are 17 swimming pools, water slides, Current River and Wave Pool. In addition, we have a spa, sports courts, soccer fields, space for extreme sports and an incredible fishing lake.</string>
+
+    <!--Sobre Praiamar-->
+
+    <string name="about_praiamar_name">"About Praiamar</string>
+    <string name="about_praiamar_preview">Don\'t just stay here. See also…</string>
+    <string name="about_praiamar_description">Don\'t just stay here. Follow us on our social networks and discover the entire Brazilian coast, its natural beauty and enjoy what is yours by nature.</string>
+
+
+
 </resources>
