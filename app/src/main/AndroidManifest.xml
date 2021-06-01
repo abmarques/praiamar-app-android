@@ -2,6 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.praiamar">
 
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,13 +18,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Praiamar">
-        <activity android:name=".views.activities.MainActivity"></activity>
+
+        <activity android:name=".views.activities.MainActivity" />
         <activity android:name=".views.activities.AboutActivity" />
         <activity android:name=".views.activities.BeachDetailsActivity" />
         <activity android:name=".views.activities.BeachActivity" />
         <activity android:name=".views.activities.CoastActivity" />
         <activity android:name=".views.activities.HomeActivity" />
-        <activity android:name=".views.activities.SplashScreenActivity"
+        <activity
+            android:name=".views.activities.SplashScreenActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
