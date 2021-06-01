@@ -31,13 +31,13 @@ class BeachDetailsActivity : AppCompatActivity() {
 
         hoteisButton.setOnClickListener{
             val intent  = Intent(Intent.ACTION_WEB_SEARCH)
-            intent.putExtra(SearchManager.QUERY, "Hotéis em ${beachDetailNameTxtView.text}")
+            intent.putExtra(SearchManager.QUERY, "${getString(R.string.hotels_in)} ${beachDetailNameTxtView.text}")
             openIntent(intent)
         }
 
         restaurantesButton.setOnClickListener{
             val intent  = Intent(Intent.ACTION_WEB_SEARCH)
-            intent.putExtra(SearchManager.QUERY, "Restaurantes em ${beachDetailNameTxtView.text}")
+            intent.putExtra(SearchManager.QUERY, "${getString(R.string.restaurants_in)} ${beachDetailNameTxtView.text}")
             openIntent(intent)
         }
 
