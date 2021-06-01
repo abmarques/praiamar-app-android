@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity(), OnRecyclerViewClickListener  {
 
     override fun onRecyclerViewItemClicked(position: Int) {
 
-        if(litoralList[position].Nome.equals("Sobre Praiamar")){
+        if(litoralList[position].Nome.equals(getString(R.string.about_praiamar_name))){
             var item = litoralList[position].beaches[0]
 
             var intent = Intent(this, AboutActivity::class.java)
