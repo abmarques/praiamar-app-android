@@ -29,7 +29,9 @@ class BeachDetailsActivity : AppCompatActivity() {
         beachLatitude = intent.getDoubleExtra("beachLatitude", 0.0)
         beachLongitude = intent.getDoubleExtra("beachLongitude", 0.0)
 
+
         hoteisButton.setOnClickListener{
+
             val intent  = Intent(Intent.ACTION_WEB_SEARCH)
             intent.putExtra(SearchManager.QUERY, "${getString(R.string.hotels_in)} ${beachDetailNameTxtView.text}")
             openIntent(intent)
@@ -44,15 +46,7 @@ class BeachDetailsActivity : AppCompatActivity() {
         comoChegarButton.setOnClickListener{
             fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
             fetchLocation()
-
-            val intent = Intent(Intent.ACTION_VIEW)
-            intent.setData(Uri.parse("geo:${beachLatitude},${beachLongitude}"))
-            var chooser = Intent.createChooser(intent, "Launch Maps")
-            startActivity(chooser)
         }
-
-
-
 
     }
 
@@ -69,6 +63,11 @@ class BeachDetailsActivity : AppCompatActivity() {
         task.addOnSuccessListener {
             if(it != null) {
                 Toast.makeText(applicationContext, "${it.latitude}, ${it.longitude}", Toast.LENGTH_SHORT).show()
+
+                val intent = Intent(Intent.ACTION_VIEW)
+                intent.setData(Uri.parse("geo:${beachLatitude},${beachLongitude}"))
+                var chooser = Intent.createChooser(intent, "Launch Maps")
+                startActivity(chooser)
             }
         }
     }
