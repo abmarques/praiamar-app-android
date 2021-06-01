@@ -40,6 +40,8 @@ class CoastActivity : AppCompatActivity(), OnBeachItemClickListener {
         intent.putExtra("beachName", item.Nome)
         intent.putExtra("beachDescription", item.Descricao)
         intent.putExtra("beachImage", item.LargeImagem)
+        intent.putExtra("beachLatitude", item.Latitude)
+        intent.putExtra("beachLongitude", item.Longitude)
 
         startActivity(intent)
     }
